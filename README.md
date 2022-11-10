@@ -3,7 +3,7 @@
 To DO
 
 ### To get the project up and running:
-
+1. Run `cp .env.example .env`
 2. Run `sail up` to start the containers. `sail up -d` will start the containers in the background and is generally more convenient.
 3. Run `sail composer install` to install PHP dependencies.
 4. Run `sail artisan migrate:fresh --seed` to prepare the database.
